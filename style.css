@@ -1,10 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-    color: #333;
+  color: #333;
+}
+
+.page2_3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.page2_photo {
+  width: 655px;
+  height: 750px;
+}
+
+.page_title {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.page_content_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.page_content_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.page_buttons {
+  margin-top: 30px;
+}
+
+.page_button_each {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.page_button_each:hover {
+  background-color: #cacccf;
 }
