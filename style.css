@@ -173,7 +173,9 @@ body {
   border: none;
   text-indent: 0.1rem;
   cursor: pointer;
-  -webkit-appearance: none;
+  -webkit-appearance: none; /* 크롬, 사파리 등 웹킷 브라우저 */
+  -moz-appearance: none; /* 파이어폭스 */
+  appearance: none; /* 표준 속성 */
   padding-left: 0.5rem;
 }
 .footer_rules {
