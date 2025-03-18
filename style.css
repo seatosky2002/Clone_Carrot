@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Gilroy-Bold";
   font-display: swap;
@@ -21,8 +22,70 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+/* 공통 스타일 */
+.page34_main_section {
+  background-color: #f8f8f8;
+}
 
-/* page1 */
+.page34_home_main_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page34_main_image {
+  width: 655px;
+  height: 750px;
+}
+
+.page34_service_title {
+  color: #ff6f0f;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.page34_main_title {
+  font-size: 4rem;
+  line-height: 5.5rem;
+  margin: 1.2rem 0;
+}
+
+.page34_service_comment {
+  color: #7c7c7c;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+}
+
+.page34_main_buttons {
+  margin-top: 2.8rem;
+}
+
+.page34_main_button {
+  display: inline-block;
+  background-color: #e9ecef;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  border-radius: 0.6rem;
+  padding: 1.1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.page34_main_button:hover {
+  background-color: gainsboro;
+}
+
+.page34_main_reverse {
+  flex-direction: row-reverse;
+}
+
+/* Page 1 스타일 */
 #first {
   padding-top: 24px;
   background-color: #fffae0;
@@ -41,10 +104,7 @@ body {
   font-weight: 700;
   line-height: 73px;
   padding-top: 200px;
-  margin-top: 0;
   margin-bottom: 3.2rem;
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .first-main-text {
@@ -63,24 +123,23 @@ body {
   height: 56px;
   border-radius: 10px;
   background-color: #ff6f0f;
-  box-sizing: border-box;
-  text-decoration: none;
   padding: 14px 2rem;
   display: inline-block;
-  vertical-align: middle;
   text-align: center;
   margin-right: 1rem;
+  text-decoration: none;
 }
+
 .first-download-button:hover {
   background-color: #f06000;
 }
 
 .first-download-img {
-  fill: #fff;
   vertical-align: middle;
   display: inline-block;
   width: 25px;
 }
+
 .first-download-text {
   display: inline-block;
   color: #fff;
@@ -100,3 +159,4 @@ body {
   background-repeat: no-repeat;
   background-size: 804px 685px;
 }
+
