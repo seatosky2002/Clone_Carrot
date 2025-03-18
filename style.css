@@ -21,6 +21,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+/* Header */
 .header_line {
   max-width: 120rem;
   height: 6.4rem;
